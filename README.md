@@ -1,4 +1,4 @@
 # https://tlnk23.github.io/travel/ #
 # travel
 
-First steps in js
+learning js project (NOT MY HTML/CSS code, only js)
