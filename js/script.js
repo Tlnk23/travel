@@ -37,10 +37,11 @@ window.addEventListener('DOMContentLoaded', function(){
 
     //Timer
 
-    let deadline = '2020-05-04';
-
+    let deadline = new Date();
+    deadline.setHours(deadline.getHours() + 1);
+    
     function getTimeRemaining(endtime) {
-        let t = Date.parse(endtime) - Date.parse(new Date()),
+        let t = Date.parse(deadline) - Date.parse(new Date()),
         seconds = Math.floor((t/1000) % 60),
         minutes = Math.floor((t/1000/60) % 60),
         hours = Math.floor((t/(1000*60*60)));
@@ -103,6 +104,7 @@ window.addEventListener('DOMContentLoaded', function(){
         document.body.style.overflow = '';
     });
 
+    
 
 });
 
