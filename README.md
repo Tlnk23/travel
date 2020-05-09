@@ -2,6 +2,7 @@
 # travel
 
 learning native js project (NOT MY HTML/CSS code, only js)
+also i used webpack (babel, uglifyjs)
 
 JS widget list :
   - modal
